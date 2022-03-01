@@ -1,11 +1,49 @@
 Package: osintr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Useful OSINT functions
 Version: 0.1.0
-Author: Who wrote it
+Author: Peter Deutscher
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT License
+Depends:
+    R (>= 3.60)
+Imports:
+    assertthat,
+    desc,
+    dplyr (>= 1.0.0),
+    extrafont,
+    ggplot2,
+    glue,
+    httr,
+    janitor,
+    jsonlite,
+    lifecycle,
+    magrittr,
+    pins,
+    plyr,
+    purrr,
+    remotes,
+    rlang,
+    sf,
+    stringr,
+    tibble,
+    tidyr,
+    tidyselect,
+    usethis,
+    utils
+Suggests:
+    fs,
+    ggmap,
+    lintr (>= 2.0.1.9000),
+    lubridate,
+    osmdata,
+    readr,
+    testthat
+Remotes:
+    github::dkahle/ggmap,
+    github::jimhester/lintr
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
